@@ -98,6 +98,8 @@ table {
 
 body {
     background-image: url(img/bg_1.jpg);
+    padding-right: 10%;
+    padding-left: 10%;
     /* background-size: cover; */
 
 }
@@ -165,8 +167,8 @@ body {
     font-weight: bolder;
 }
 
-.container {
-    width: 1000px;
+.background {
+    width: auto;
     margin: 100px auto;
     background: rgba(255, 255, 255,.9);
     font-family: Arial, Helvetica, sans-serif;
@@ -176,11 +178,23 @@ body {
     position: relative;
 }
 
+.header-name {
+    font-family: 'Poppins';
+    font-weight: bolder;
+    letter-spacing: 4px;
+    /* font-size: 80px; */
+    color: #330072;
+    padding: 30px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px whitesmoke;
+    transition: 1s;
+}
 .container h2 {
     font-family: 'Poppins';
     font-weight: bolder;
     letter-spacing: 4px;
-    font-size: 80px;
+    /* font-size: 80px; */
     color: #330072;
     padding: 30px;
     margin-bottom: -10px;
@@ -233,8 +247,8 @@ body {
 
 .by h2 {
     font-size: 14px;
-    margin-top: -5px;
-    margin-bottom: -50px;
+    /* margin-top: -5px; */
+    /* margin-bottom: -50px; */
     margin-left: 5px;
     text-shadow: none;
 }
@@ -259,7 +273,7 @@ body {
 }
 
 .content p {
-    padding: 35px;
+    padding: 20px 10px 20px 10px;
     text-align: justify;
     letter-spacing: 2px;
     font-family: 'Poppins';
@@ -268,13 +282,13 @@ body {
 }
 
 .artkl1 {
-    float: left;
-    width: 600px;
+    /* float: left; */
+    /* width: 600px; */
 }
 
 .artkl2 {
-    float: right;
-    width: 400px;
+    /* float: right;
+    width: 400px; */
 } 
 
 .artkl2 img  {
